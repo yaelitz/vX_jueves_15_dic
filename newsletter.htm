@@ -1,0 +1,60 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>form</title>
+ <style type="text/css">
+        body {
+            font-family: 'Cardo', Georgia, "Times New Roman", serif;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            text-rendering: optimizeLegibility;
+            text-align: center;
+            width: 100%;
+            display: inline-block;
+            }
+        
+        p {
+            display: inline-block;
+            text-align: center;
+            margin: 0 auto;
+            color: white;
+            text-transform: uppercase;
+            font-size: 0.75em;
+            padding: 8px 0px;
+        }
+        
+        form {
+            display: inline-block;
+            text-align: center;
+            width: 230px;
+        }
+        
+        input[type=text] {
+            display: inline-block;
+            text-align: center;
+            margin: 0 auto;
+            width: 100%;
+            margin-bottom: 10px;
+            padding: 5px 0px;
+        }
+        
+        input[type=submit] {
+            display: inline-block;
+            text-align: center;
+            margin: 0 auto;
+            /* width: 84%; */
+            text-transform: uppercase;
+            background-color: #e9ddc9;
+            padding: 3px 15px 3px;
+        }
+    </style>
+</head>
+<body>
+<link href="NL-style.css" rel="stylesheet" type="text/css">
+<form name="form1" method="post" action="NL-process.php">
+<p>suscribete a nuesto newsleter</p>     
+<input name="email" type="text" placeholder="correo@ejemplo.cl">
+<input type="submit" name="Submit" value="enviar">
+</form> 
+</body>
+</html>
