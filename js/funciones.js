@@ -252,11 +252,16 @@ $(document).ready(function () {
         $(this).find('div.caption-content-four').removeClass("hover-four");
     });
 
+/*$('input#news-btn').click(function(e){
+e.preventDefault();
+console.log('click en news');
+});*/
 
 
 });
 
-$('.carousel').carousel({
+/*$('.carousel').carousel({
       interval: 10000
-    })
+    });*/
+
 
