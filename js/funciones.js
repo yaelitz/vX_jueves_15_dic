@@ -260,8 +260,8 @@ console.log('click en news');
 
 });
 
-/*$('.carousel').carousel({
+$('.carousel').carousel({
       interval: 10000
-    });*/
+    });
 
 
